@@ -1,0 +1,320 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* -----------reset---------------- */
+
+.resume {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.photo {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.top p {
+    padding-top: 40px;
+    padding-bottom: 24px;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: roboto;
+    border-bottom: 2px solid #5b5b5b;
+}
+
+.title {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #5b5b5b;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.title span {
+    font-family: roboto;
+    font-weight: bold;
+    color: #A30101;
+    font-size: 24px;
+    padding-left: 18px;
+    padding-top: 10px;
+}
+
+.medown1 {
+    padding-top: 16px;
+    font-family: Microsoft JhengHei;
+    font-weight: medium;
+    line-height: 36px;
+}
+
+.medown2 {
+    padding-top: 24px;
+    font-family: Microsoft JhengHei;
+    font-weight: medium;
+    line-height: 36px;
+    padding-bottom: 72px;
+}
+
+.edudown1 {
+    padding-top: 16px;
+    font-family: Microsoft JhengHei;
+    font-weight: medium;
+    line-height: 36px;
+    padding-bottom: 24px;
+}
+
+.edudown2 {
+    font-family: Microsoft JhengHei;
+    font-weight: medium;
+    line-height: 36px;
+    padding-bottom: 72px;
+}
+
+.skillsup {
+    padding-top: 32px;
+    padding-bottom: 8px;
+    font-size: 32px;
+    font-family: Microsoft JhengHei;
+    text-align: center;
+    border-bottom: 2px solid #D9D9D9;
+    width: 996px;
+    margin-left: 102px;
+}
+
+.skills {
+    font-family: Microsoft JhengHei;
+    color: #fff;
+    list-style: none;
+    background-color: #415165;
+    width: 1200px;
+    height: 496px;
+
+}
+
+.skills>.skillsdown>li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 55px;
+    padding-left: 24px;
+    /* padding-bottom: 20px; */
+    border-left: 2px solid #D9D9D9;
+    
+}
+
+.skillsdown {
+    margin-left: 484px;
+    padding-left: 24px;
+    
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.work {
+    padding-top: 72px;
+}
+
+.workdown {
+    border-left: 2px solid #D9D9D9;
+    padding-left: 24px;
+    margin-left: 14px;
+    margin-top: 14px;
+    margin-bottom: 69px;
+    font-family: Microsoft JhengHei;
+    line-height: 36px;
+}
+
+.workdown p {
+    width: 563px;
+    font-family: 'Microsoft JhengHei';
+/* font-style: normal; */
+/* font-weight: 400;
+font-size: 20px; */
+line-height: 30px;
+
+}
+
+h4{
+    font-family: 'Microsoft JhengHei';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    /* padding-top: 14px; */
+
+}
+
+h2 {
+    font-family: 'Microsoft JhengHei';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    padding-top: 32px;
+
+}
+
+.bot {
+    padding: 24px;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    font-size: 20px;
+    color: #fff;
+    list-style: none;
+    background-color: #415165;
+}
+
+.botup {
+    padding-top: 32px;
+    padding-bottom: 8px;
+    font-size: 32px;
+    font-family: Microsoft JhengHei;
+    text-align: center;
+    border-bottom: 2px solid #D9D9D9;
+
+}
+
+.botdown {
+    padding-top: 24px;
+    padding-bottom: 8px;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.botlink {
+    padding-top: 20px;
+}
