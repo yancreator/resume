@@ -219,7 +219,6 @@ table {
     background-color: #415165;
     width: 1200px;
     height: 496px;
-
 }
 
 .skills>.skillsdown>li {
@@ -228,15 +227,12 @@ table {
     font-size: 24px;
     line-height: 55px;
     padding-left: 24px;
-    /* padding-bottom: 20px; */
     border-left: 2px solid #D9D9D9;
-    
 }
 
 .skillsdown {
     margin-left: 484px;
     padding-left: 24px;
-    
     text-align: left;
     margin-top: 16px;
     margin-bottom: 22px;
@@ -259,22 +255,16 @@ table {
 .workdown p {
     width: 563px;
     font-family: 'Microsoft JhengHei';
-/* font-style: normal; */
-/* font-weight: 400;
-font-size: 20px; */
-line-height: 30px;
-
+    line-height: 30px;
 }
 
-h4{
+h4 {
     font-family: 'Microsoft JhengHei';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
     color: #000000;
-    /* padding-top: 14px; */
-
 }
 
 h2 {
@@ -285,7 +275,6 @@ h2 {
     line-height: 36px;
     color: #000000;
     padding-top: 32px;
-
 }
 
 .bot {
@@ -305,7 +294,6 @@ h2 {
     font-family: Microsoft JhengHei;
     text-align: center;
     border-bottom: 2px solid #D9D9D9;
-
 }
 
 .botdown {
